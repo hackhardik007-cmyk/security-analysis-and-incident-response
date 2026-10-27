@@ -1,0 +1,27 @@
+# Temporary and editor files
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Sensitive or raw assessment artifacts (review before any intentional inclusion)
+*.pcap
+*.pcapng
+*.nessus
+*_result.txt
+*scan-output*
+*raw-output*
+*.evtx
+
+# Do not commit credentials, environment files, or local secrets
+.env
+.env.*
+*.pem
+*.key
+secrets/
+credentials/
